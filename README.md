@@ -1,25 +1,27 @@
-# DashboardJS
+# DashJS
 
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
 
 
-DashboardJS is a Javascript library that handles dashboard events, asyncronous views, AJAX requests and responses, form handling and resource actions, allowing you to concentrate on your front-end application logic. This Library is suitable for building typical web admin dashboard applications simple or complex.
+DashJS is a Javascript library specially designed for dashboard based web apps but also can be used to for all other web apps. DashJS handles events, asyncronous views/pages, AJAX requests and responses, forms and resource actions etc., allowing you to concentrate on your application logic.
 
 ## Install
 
-Include dist/dashboard.min.js in dashboard home
+Include dist/dash.min.js in dashboard home
 
 ```html
-<script src="your-js-directory/dashboard.min.js"></script>
+<script src="js-directory/dash.min.js"></script>
 ```
 
+**Node**
+npm -i dashjs --save  
+
 ## Usage
-You can access the global Dashboard, Events, Global, Actions and Handlers objects. All functionality is attached to these objects.
+All functionality is wrapped within the `Dash` object.
 
 ```js
-var data = Dashboard.serializeFormData();
 
-Dashboard.actionAjax('route/to/your/server', data, function(response) {
+Dash.request('route/to/your/server', data, function(response) {
 	console.log(response);
 	
 	// Do whatever you want with response
@@ -27,11 +29,11 @@ Dashboard.actionAjax('route/to/your/server', data, function(response) {
 ```
 ## Contributing
 
-Contributions are welcome, [Check Here](https://github.com/krecent/dashboardjs/graphs/contributors) :)
+Contributions are welcome, [Check Here](https://github.com/krecent/dashjs/graphs/contributors) :)
 
 ## Documentation
 
-Documentation [here](https://github.com/krecent/dashboardjs/wiki/Documentation) updates coming
+Documentation [here](https://github.com/krecent/dashjs/wiki/Documentation) updates coming
 
 ## License
 
