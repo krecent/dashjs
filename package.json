@@ -1,0 +1,20 @@
+{
+    "name": "dashboardjs",
+    "version": "1.0.0",
+    "description": "A library for developing dashboard based web applications, handles views/pages, dashboard events and resource requests",
+    "main": "index.js",
+    "dependencies": {},
+    "devDependencies": {},
+    "scripts": {},
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/krecent/dashboardjs.git"
+    },
+    "keywords": ["dashboard", "ajax"],
+    "author": "",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/krecent/dashboardjs/issues"
+    },
+    "homepage": "https://github.com/krecent/dashboardjs#readme"
+}
