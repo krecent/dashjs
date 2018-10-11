@@ -13,7 +13,7 @@ Include dist/dash.min.js in dashboard home
 <script src="js-directory/dash.min.js"></script>
 ```
 
-**Node**
+**Node**  
 npm -i dashjs --save  
 
 ## Usage
@@ -27,13 +27,14 @@ Dash.request('route/to/your/server', data, function(response) {
 	// Do whatever you want with response
 });
 ```
-## Contributing
-
-Contributions are welcome, [Check Here](https://github.com/krecent/dashjs/graphs/contributors) :)
 
 ## Documentation
 
-Documentation [here](https://github.com/krecent/dashjs/wiki/Documentation) updates coming
+Documentation [here](https://github.com/krecent/dashjs/wiki/home)
+
+## Contributing
+
+Contributions are welcome, [Check Here](https://github.com/krecent/dashjs/graphs/contributors) :)
 
 ## License
 
