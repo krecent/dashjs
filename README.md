@@ -13,8 +13,8 @@ Include dist/dash.min.js in dashboard home
 <script src="js/dash.min.js"></script>
 ```
 
-**Node**  
-npm -i dashjs --save  
+**npm**  
+npm i dashjs --save  
 
 ## Usage
 All functionality is wrapped within the `Dash` object.
