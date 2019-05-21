@@ -3,14 +3,14 @@
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
 
 
-DashJS is a Javascript library specially designed for dashboard based web apps but also can be used to for all other web apps. DashJS handles events, asyncronous views/pages, AJAX requests and responses, forms and resource actions etc., allowing you to concentrate on your application logic.
+DashJS is a Javascript library specially designed for dashboard based web apps but also can be used for all web application. DashJS handles events, asyncronous views/pages, AJAX requests and responses, form handling, resource actions etc., allowing you to concentrate on your application logic.
 
 ## Install
 
 Include dist/dash.min.js in dashboard home
 
 ```html
-<script src="js-directory/dash.min.js"></script>
+<script src="js/dash.min.js"></script>
 ```
 
 **Node**  
