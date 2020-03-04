@@ -1,20 +1,31 @@
 {
     "name": "dashjs",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "description": "A library for developing dashboard based web applications, handles views/pages, dashboard events and resource requests",
-    "main": "index.js",
+    "main": "src/dash.js",
     "dependencies": {},
-    "devDependencies": {},
-    "scripts": {},
+    "devDependencies": {
+        "@babel/core": "^7.8.6",
+        "@babel/preset-env": "^7.8.6",
+        "babel-loader": "^8.0.6",
+        "webpack": "^4.41.6",
+        "webpack-cli": "^3.3.11"
+    },
+    "scripts": {
+        "production": "webpack -p"
+    },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/krecent/dashboardjs.git"
+        "url": "git+https://github.com/krecent/dashjs.git"
     },
-    "keywords": ["dashboard", "ajax"],
+    "keywords": [
+        "dashboard",
+        "ajax"
+    ],
     "author": "",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/krecent/dashboardjs/issues"
+        "url": "https://github.com/krecent/dashjs/issues"
     },
-    "homepage": "https://github.com/krecent/dashboardjs#readme"
+    "homepage": "https://github.com/krecent/dashjs#readme"
 }

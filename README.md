@@ -1,4 +1,4 @@
-#DashJS
+# DashJS
 
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
 
@@ -10,7 +10,7 @@ DashJS is a Javascript library specially designed for dashboard based web apps b
 Include dist/dash.min.js in dashboard home
 
 ```html
-<script src="js/dash.min.js"></script>
+<script src="js/dashjs.min.js"></script>
 ```
 
 **npm**  
