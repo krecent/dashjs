@@ -1,5 +1,5 @@
 {
-    "name": "dashboardjs",
+    "name": "dashjs",
     "version": "1.0.0",
     "description": "A library for developing dashboard based web applications, handles views/pages, dashboard events and resource requests",
     "main": "index.js",
